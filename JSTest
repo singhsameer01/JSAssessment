@@ -31,7 +31,8 @@ function mintNFT(_name,_colour,_type,_price) {
 // and print their metadata with console.log()
 function listNFTs() {
     for(let i=0;i<NFTs.length;i++){
-        console.log("\nName :\t",NFTs[i].name);
+        console.log("\nID :\t",i+1);
+        console.log("Name :\t",NFTs[i].name);
         console.log("Colour :",NFTs[i].colour);
         console.log("Type :\t",NFTs[i].type);
         console.log("Price :\t",NFTs[i].price);
